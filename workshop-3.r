@@ -3,7 +3,7 @@ WORLD <- read.csv('WORLD.CSV')
 str(WORLD)
 plot(WORLD)
 
-WORLD_CLEAN <- na.omit(WORLD[,3:15])
+WORLD_CLEAN <- na.omit(WORLD[, 3:15])
 str(WORLD_CLEAN)
 plot(WORLD_CLEAN)
 
